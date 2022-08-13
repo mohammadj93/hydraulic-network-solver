@@ -9,3 +9,4 @@ The second sheet "PQC" has four columns. First is the number of the boundary nod
 
 After running the code, pressures and concentrations at the nodes will pup out in the command window and the data is the workspace that you can use. Keep the dimensions' unit constant through out the sheet and in the code.
 
+Follow the demo example to learn how to use the code.

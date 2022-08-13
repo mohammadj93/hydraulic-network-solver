@@ -34,3 +34,6 @@ Follow the demo example to learn how to use the code. The code should result in 
      4       0.0073148       47.303    
      5      3.2131e-20       53.135    
      6        0.014507           58  
+
+You can cite this as
+<a href="https://zenodo.org/badge/latestdoi/524494706"><img src="https://zenodo.org/badge/524494706.svg" alt="DOI"></a>

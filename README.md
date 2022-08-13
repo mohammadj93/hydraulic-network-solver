@@ -7,6 +7,6 @@ Each of the nodes should be assigned with a unique number (the value and order o
 
 The second sheet "PQC" has four columns. First is the number of the boundary node. The second column is the pressure at the node, the third is the flow rate and the fourth is the concentration. If there is no information available of any of the parameter then the element should be left empty. In general, for the outlet nodes, the pressure is known and it is usually set at zero and for the inlet nodes the concentration is known and the flow rates. 
 
-After running the code, pressures and concentrations at the nodes will pup out in the command window and the data is the workspace that you can use. Keep the dimensions' unit constant through out the sheet and in the code.
+After running the code, pressures and concentrations at the nodes will pup out in the command window and the data is the workspace that you can use. Keep the dimensions' unit constant through out the sheet and in the code. You should remember that concentration is calculated with the assumption that between each two nodes with a connection, there is a mixer that will mix the fluid thoroughly for perfect mixing. 
 
 Follow the demo example to learn how to use the code.

@@ -9,7 +9,7 @@ The second sheet "PQC" has four columns. First is the number of the boundary nod
 
 After running the code, pressures and concentrations at the nodes will pup out in the command window and the data is the workspace that you can use. Keep the dimensions' unit constant through out the sheet and in the code. You should remember that concentration is calculated with the assumption that between each two nodes with a connection, there is a mixer that will mix the fluid thoroughly for perfect mixing. Please refer to the following paper in the journal Lab On a Chip, to understand the formulation for hydraulic resistance. 
 
-_Design of pressure-driven microfluidic networks using electric circuit analogy 
+_Design of pressure-driven microfluidic networks using electric circuit analogy <br />
 \n Kwang W. Oh, Kangsun Lee, Byungwook Ahn and Edward P. Furlani_
 
 Follow the demo example to learn how to use the code.

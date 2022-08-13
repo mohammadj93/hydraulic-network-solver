@@ -7,9 +7,29 @@ Each of the nodes should be assigned with a unique number (the value and order o
 
 The second sheet "PQC" has four columns. First is the number of the boundary node. The second column is the pressure at the node, the third is the flow rate and the fourth is the concentration. If there is no information available of any of the parameter then the element should be left empty. In general, for the outlet nodes, the pressure is known and it is usually set at zero and for the inlet nodes the concentration is known and the flow rates. 
 
-After running the code, pressures and concentrations at the nodes will pup out in the command window and the data is the workspace that you can use. Keep the dimensions' unit constant through out the sheet and in the code. You should remember that concentration is calculated with the assumption that between each two nodes with a connection, there is a mixer that will mix the fluid thoroughly for perfect mixing. Please refer to the following paper in the journal Lab On a Chip, to understand the formulation for hydraulic resistance. 
+After running the code, pressures and concentrations at the nodes will pup up in the command window and the data is the workspace that you can use. Keep the dimensions' unit constant through out the sheet and in the code. The amount of flow rate determines the direction of the flow. If the flow rate is positive it means that it flows from the starting node to the edning node and vice versa. You should remember that concentration is calculated with the assumption that between each two nodes with a connection, there is a mixer that will mix the fluid thoroughly for perfect mixing. Please refer to the following paper in the journal Lab On a Chip, to understand the formulation for hydraulic resistance. 
 
 _Design of pressure-driven microfluidic networks using electric circuit analogy <br />
 Kwang W. Oh, Kangsun Lee, Byungwook Ahn and Edward P. Furlani_
 
-Follow the demo example to learn how to use the code.
+Follow the demo example to learn how to use the code. The code should result in the floowing answer.
+    flow rates        Branch    
+    __________    ______________
+
+          40      12     1     2
+      18.027      23     2     3
+      21.973      24     2     4
+      41.705      34     3     4
+      76.322      36     3     6
+      63.678      45     4     5
+     -76.322      56     5     6
+
+    Node     pressure     concentration
+    ____    __________    _____________
+
+     1        0.028616           27    
+     2        0.024021           27    
+     3        0.021521           58    
+     4       0.0073148       47.303    
+     5      3.2131e-20       53.135    
+     6        0.014507           58  

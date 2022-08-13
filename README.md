@@ -13,6 +13,7 @@ _Design of pressure-driven microfluidic networks using electric circuit analogy 
 Kwang W. Oh, Kangsun Lee, Byungwook Ahn and Edward P. Furlani_
 
 Follow the demo example to learn how to use the code. The code should result in the floowing answer.
+
     flow rates        Branch    
     __________    ______________
 

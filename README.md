@@ -1,4 +1,4 @@
 # hydraulic-network-solver
 This generic MATLAB code is to solve the pressure, flow rate and concentration distribution in a hydraulic network of channels in microfluidics such as concentration gradient generators or CGGs. 
 # How To Use The Code
-To use the code only an excel file is needed with the name "Connections.xlsx". This file has two sheets with the following names: "R" and "PQC"
+To use the code only an excel file is needed with the name "Connections.xlsx". This file has two sheets with the following names: "R" which stands for the resistors and "PQC" which contains the boundary conditions of the network, including pressure, flow rate and concentration. At the moment the solver is only able to solve for concentration of one species, however, for multiple species it is reasonable to run the code several times for each species provided that their dynamics is separable from each other (they do not have interactions with one another)
